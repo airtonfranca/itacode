@@ -260,3 +260,53 @@ a{
     margin-top: 5px;
     margin: 5px;
 }
+@media (max-width: 991px){
+    .banner{
+        padding: 50px;
+    }
+    .banner header{
+        padding: 20px 15px;
+    }
+    .banner .content h2{
+        font-size: 36px;
+    }
+    .banner .content p{
+        font-size: 16px;
+    }
+    .sobre{
+        flex-direction: column;
+    }
+    .sobre .contentBx{
+        width: 100%;
+        padding: 50px;
+        min-height: 400px;
+        text-align: center;
+    }
+    .services{
+        padding: 50px;
+    }
+    .services .container{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .services .container .serviceBx{
+        margin: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    .clientes{
+        margin-top: 0;
+        padding: 50px;
+    }
+    .clientes .imgBx{
+        justify-content: center;
+    }
+    .contato{
+        padding: 50px;
+    }
+    .footer{
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
