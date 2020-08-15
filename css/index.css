@@ -5,11 +5,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    color: rgb(169, 169, 168);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+}
 .banner{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #000000;
+    background: #1c1238;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +67,7 @@
     display: flex;
 }
 .sobre .contentBx{
-    background: #162c3b;
+    background: #FC4A1A;
     padding: 100px;
     width: 50%;
 }
@@ -76,15 +84,8 @@
     font-weight: 300;
     letter-spacing: 1px;
 }
-/*.sobre .imgBx{
-    background: url(../img/logo-sobre.jpg);
-    background-position-x: 10;
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-}*/
 .services{
-    background: #6e0404;
+    background: #073b33;
     padding: 100px;
     text-align: center;
 }
@@ -97,13 +98,19 @@
     margin-top: 60px;
 }
 .services .container .serviceBx{
-    border-top-left-radius: 7%;
-    border-bottom-right-radius: 7%;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 132, 0, 0.26);
+    -moz-box-shadow:    0px 0px 25px 0px rgba(0, 132, 0, 0.26);
+    box-shadow:         0px 0px 25px 0px rgba(0, 132, 0, 0.26);
+    border-radius: 7%;
     position: relative;
     background: #fff;
+    margin-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 250px;
     height: 250px;
     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
@@ -115,8 +122,13 @@
     letter-spacing: 1px;
     text-align: center;
 }
+.services .container .serviceBx h3{
+    font-weight: 650;
+    letter-spacing: 1px;
+    text-align: center;
+}
 .clientes{
-    background: brown;
+    background: #117667;
     width: 100%;
     padding: 100px;
     padding-top: 300px;
@@ -165,26 +177,34 @@
     width: 50%;
 }
 .color{
-    background-color:#6e0404 !important;
+    background-color:#901515 !important;
     background-size: cover;
     background-position: center;
 }
 .color2{
-    background-color:#9d1d1d !important;
+    background-color:#a22525 !important;
     background-size: cover;
     background-position: center;
 }
-.whatsapp img{
-    display: inline;
-    max-width: 30px;
+.redesocial{
     opacity: 1;
-    cursor: pointer;
 }
-.whatsapp img:hover{
-    opacity: 0.8;
+.redesocial:hover{
+    opacity: 0.6;
+}
+.redesocial img{
+    max-width: 30px;
+}
+.redesocial h2{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 23px;
 }
 .form .inputBx{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .form .inputBx input{
     width: 100%;
@@ -223,14 +243,6 @@
     color: #111;
     cursor: pointer;
     font-weight: 400px;
-}
-a{
-    color: rgb(169, 169, 168);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 18px;
-    font-weight: 300;
 }
 .footer{
     background: #162c3b;
