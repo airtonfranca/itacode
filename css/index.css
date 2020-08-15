@@ -145,7 +145,7 @@ a{
 .clientes .imgBx img{
     max-width: 200px;
     margin: 20px;
-    opacity: 0.25;
+    opacity: 0.60;
     cursor: pointer;
 }
 .clientes .imgBx img:hover{
