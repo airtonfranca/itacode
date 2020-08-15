@@ -143,6 +143,7 @@ a{
     margin-top: 40px;
 }
 .clientes .imgBx img{
+    border-radius: 10px;
     max-width: 200px;
     margin: 20px;
     opacity: 0.60;
@@ -238,6 +239,7 @@ a{
     color: #fff;
 }
 .form .inputBx input[type="submit"]{
+    border-radius: 10px;
     width: 150px;
     background: #fff;
     color: #111;
