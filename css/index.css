@@ -65,16 +65,6 @@ a{
     background-color: white;
     margin: 6px 0;
 }
-.sobre{
-    position: relative;
-    width: 100%;
-    display: flex;
-}
-.sobre .contentBx{
-    background: #FC4A1A;
-    padding: 100px;
-    width: 50%;
-}
 .heading{
     color: #fff;
     font-size: 30px;
@@ -179,6 +169,16 @@ a{
     background-color: #15669b;
     background-size: cover;
     background-position: center;
+    width: 50%;
+}
+.sobre{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.sobre .contentBx{
+    background: #FC4A1A;
+    padding: 60px;
     width: 50%;
 }
 .color{
