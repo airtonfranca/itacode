@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
     font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
 }
 a{
     color: rgb(169, 169, 168);
@@ -110,9 +114,9 @@ a{
     width: 250px;
     height: 250px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .services .container .serviceBx img{
     max-width: 200px;
@@ -143,7 +147,7 @@ a{
     margin-top: 40px;
 }
 .clientes .imgBx img{
-    border-radius: 10px;
+    border-radius: 10%;
     max-width: 200px;
     margin: 20px;
     opacity: 0.60;
