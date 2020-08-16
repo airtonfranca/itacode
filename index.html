@@ -10,16 +10,15 @@
 </head>
 
 <body>
-    <header class="headfixed">
-        <a href="#" class="logo">
-            <img src="./img/logoicon.png" width="60px">
-        </a>
-        <a href="#" class="logo">
-            <img src="./img/logo.png" width="200px">
-        </a>
-        
-    </header>
     <div class="banner">
+        <header>
+            <a href="#" class="logo">
+                <img src="./img/logoicon.png" width="60px">
+            </a>
+            <a href="#" class="logo">
+                <img src="./img/logo.png" width="200px">
+            </a>
+        </header>
         <img id="fundo" src="./img/fundo.png">
         <div class="content" data-0-top="opacity:0;left:100px" data-200-top="opacity:1;left:0px">
             <h2>Serviços de Designer</h2>
@@ -177,17 +176,10 @@
             </div>
         </div>
     </section>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-        var header = document.querySelector("header");
-        header.classList.toggle("headfixed", window.scrollY > 0);
-        })   
-    </script>
     <script src="./js/skrollr.js"></script>
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
-
 </body>
 
 </html>
