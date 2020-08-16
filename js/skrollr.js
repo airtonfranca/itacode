@@ -5,11 +5,10 @@
  *
  * Free to use under terms of MIT license
  */
-
 (function(window, document, undefined) {
 	'use strict';
 
-    /*
+	/*
 	 * Global api.
 	 */
 	var skrollr = {
@@ -1775,7 +1774,7 @@
 	} else if (typeof module !== 'undefined' && module.exports) {
 		module.exports = skrollr;
 	} else {
-        window.skrollr = skrollr;
+		window.skrollr = skrollr;
 	}
 
 }(window, document));

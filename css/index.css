@@ -53,7 +53,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 35px 10px;
+    padding: 35px 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -147,7 +147,7 @@ a{
     margin-top: 40px;
 }
 .clientes .imgBx img{
-    border-radius: 10%;
+    border-radius: 10px;
     max-width: 200px;
     margin: 20px;
     opacity: 0.60;
@@ -271,7 +271,7 @@ a{
         padding: 50px;
     }
     .banner header{
-        padding: 20px 15px;
+        padding: 20px 50px;
     }
     .banner .content h2{
         font-size: 36px;
