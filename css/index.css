@@ -147,7 +147,7 @@ a{
     margin-top: 40px;
 }
 .clientes .imgBx img{
-    border-radius: 10px;
+    border-radius: 10%;
     max-width: 200px;
     margin: 20px;
     opacity: 0.60;
@@ -271,7 +271,7 @@ a{
         padding: 50px;
     }
     .banner header{
-        padding: 20px 50px;
+        padding: 20px 15px;
     }
     .banner .content h2{
         font-size: 36px;
